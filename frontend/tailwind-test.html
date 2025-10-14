@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Test</title>
+    <style>
+        /* Test if Tailwind is loaded */
+        .test-tailwind { 
+            background-color: red; 
+            color: white; 
+            padding: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-blue-500 text-white p-8 rounded-lg shadow-lg m-4">
+        <h1 class="text-3xl font-bold">✅ If you see a BLUE box with white text, Tailwind is working!</h1>
+        <p class="mt-4">If this is plain HTML (no blue background), Tailwind is NOT compiling.</p>
+    </div>
+    
+    <div class="test-tailwind m-4 rounded-lg">
+        <h2>Regular CSS Test</h2>
+        <p>This red box uses regular CSS (not Tailwind)</p>
+    </div>
+    
+    <div class="bg-primary-600 text-white p-8 rounded-lg m-4">
+        <h1 class="text-2xl font-bold">✅ If you see a RED box, custom colors are working!</h1>
+        <p>This uses our custom primary-600 color (#dc2626)</p>
+    </div>
+</body>
+</html>
