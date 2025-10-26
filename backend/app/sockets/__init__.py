@@ -1,3 +1,0 @@
-"""
-Sockets package initialization
-"""
